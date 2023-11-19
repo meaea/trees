@@ -1,0 +1,80 @@
+body {
+	background-color: #888888; 
+
+}
+
+div.info{
+	background-color: #888888;
+	overflow:auto;
+	background-color: #bbbcbc;
+	margin-left: 250px;
+	margin-top: 100px;
+}
+
+div.submaster{
+	padding: 10px;
+	float: left;
+}
+
+
+div.master{
+	background-color: #bbbcbc;
+	height: auto;
+	float:left;
+	font-size: 22px; 
+	padding: 10px;
+}
+
+img.hell{
+	width: 400px;
+	border-style: solid;
+	
+}
+
+div.headpan {
+  position: fixed;
+  float: top;
+  background-color: #666;
+  width: 100%;
+  height: 70px;
+  top: 0px;
+  text-align: center;
+  font-size: 15px;
+  color: white;
+  padding-top: 1px;
+  padding-bottom: 35px;
+}
+
+div.navpan {
+  position: fixed;
+  float: left;
+  width: 250px;
+  height: 100%;
+  background-color: #ccc;
+  margin-top: 6px;
+  font-size: 20px; 
+}
+
+@media (max-width: 900px) {
+  nav, article {
+    width: 100%;
+    
+  }
+}
+
+footer {
+  background-color: #777;
+  padding-top: 100px;
+  height: 4%;
+  width: 100%;
+  text-align: center;
+  color: white;
+  float: right;
+}
+
+iframe {
+	width: 80%;
+	height: 95%;
+	border-style: none;
+
+}
