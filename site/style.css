@@ -7,7 +7,7 @@ div.info{
 	background-color: #888888;
 	overflow:auto;
 	background-color: #bbbcbc;
-	margin-left: 250px;
+	margin-left: 266px;
 	margin-top: 100px;
 }
 
@@ -33,7 +33,6 @@ img.hell{
 
 div.headpan {
   position: fixed;
-  float: top;
   background-color: #666;
   width: 100%;
   height: 70px;
@@ -45,6 +44,16 @@ div.headpan {
   padding-bottom: 35px;
 }
 
+div.headpanin {
+  display: inline-block;
+  width: 28%;
+  height: 70px;
+  top: 0px;
+  font-size: 15px;
+  color: white;
+  margin: 1px 10px 35px 10px;
+}
+
 div.navpan {
   position: fixed;
   float: left;
@@ -52,24 +61,32 @@ div.navpan {
   height: 100%;
   background-color: #ccc;
   margin-top: 6px;
+  padding-left: 16px;
   font-size: 20px; 
 }
 
 @media (max-width: 900px) {
-  nav, article {
+  div.navpan, div.headpan {
     width: 100%;
-    
+	height: auto;
+    position: absolute;
+	margin: auto;
+	position: static;
+  }
+  div.info{
+	margin: auto;
+	position: static;
   }
 }
 
 footer {
   background-color: #777;
-  padding-top: 100px;
-  height: 4%;
+  padding-top: 15px;
+  padding-bottom: 15px;
   width: 100%;
+  float: bottom;
   text-align: center;
   color: white;
-  float: right;
 }
 
 iframe {
